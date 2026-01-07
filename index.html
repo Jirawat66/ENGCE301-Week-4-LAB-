@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Dashboard – jirawat (ENGCE_301_lab4)</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+    <header class="site-header">
+        <div class="logo-area">
+            <h1>Task Dashboard</h1>
+            <p class="tagline">โปรแกรมการออกกำลังกาย</p>
+        </div>
+
+        <nav class="main-nav">
+        <a href="#today">วันนี้</a>
+        <a href="#tasks">ตารางออกกำลังกาย</a>
+        <a href="#extra">ข้อมูลอื่น ๆ</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section 1: ภาพรวมวันนี้ / Overview -->
+        <section id="today" class="section section-today">
+            <header class="section-header">
+                <h2>ภาพรวมวันนี้</h2>
+                <p class="section-subtitle">
+                    โปรแกรมที่ต้องออกกำลังกายในวันนี้
+                </p>
+            </header>
+
+            <div class="cards-row">
+
+                <article class="card">
+                <h3>สรุปโปรแกรมวันนี้</h3>
+                <p>Push Day</p>
+                <p>Cardio</p>
+
+                </article>
+
+
+                <article class="card">
+                <h3>ท่าออกกำลังกายวันนี้</h3>
+
+                <p>
+                Pull-ups 
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                </p>
+
+                <p>
+                Bodyweight Row
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                </p>
+
+                 <p>
+                Bicep Curl
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                </p>
+
+                </article>
+
+            </div>
+        </section>
+
+
+        <section id="tasks" class="section section-tasks">
+            <header class="section-header">
+                <h2>โปรแกรมการออกกำลังกายของฉัน</h2>
+                <p class="section-subtitle">
+                    โปรแกรมการออกกำลังกายของฉันใน 1 อาทิตย์นี้
+                </p>
+            </header>
+
+            <div class="tasks-layout">
+                <div class="tasks-list">
+                    <h3>To-Do List</h3>
+                    <ul>
+                        <li>กินสารอาหารให้ถึงครบตามเป้าหมาย</li>
+                        <li>พักผ่อนวันละ 7-8 ชั่วโมง</li>
+                        <li>กินน้ำให้เพียงพอ</li>
+
+                    </ul>
+                </div>
+
+                <div class="tasks-table-wrapper">
+                    <h3>โปรแกรมการออกกำลังกาย</h3>
+                    <table class="tasks-table">
+                        <thead>
+                            <tr>
+                                <th>วันที่ออก</th>
+                                <th>ท่าออกกำลังกาย</th>
+                                <th>สถานะ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Day 1</td>
+                                <td>Push-ups (ดันพื้น) <br>
+                                    Overhead Shoulder Press (ดันไหล่) <br>
+                                    Triceps Dips <br>
+                                    Bench Dips (หลังแขน)</td>
+                                <td><span class="status doing">ทำเสร็จแล้ว</span></td>
+                            </tr>
+                            <tr>
+                                <td>Day 2</td>
+                                <td>Pull (หลัง หลังแขน)
+                                    Pull-ups หรือ Australian Pull-ups <br>
+                                    Dumbbell / Bodyweight Row <br>
+                                    Bicep Curl (ดึงข้อ / ยกหน้าแขน)</td>
+                                <td><span class="status todo">กำลังทำ</span></td>
+                            </tr>
+                            <tr>
+                                <td>Day 3</td>
+                                <td>Squat <br>
+                                    Lunges <br>
+                                    Hip Thrust <br>
+                                </td>
+                                <td><span class="status booked">ยังไม่ได้ทำ</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: ข้อมูลเสริม / Extra Info -->
+        <section id="extra" class="section section-extra">
+            <header class="section-header">
+                <h2>ข้อมูลอื่น ๆ ที่สนใจ</h2>
+                <p class="section-subtitle">
+                    ข้อมูลเสริมที่ช่วยให้เห็นผลดีขึ้น
+                </p>
+            </header>
+
+            <div class="extra-layout">
+                <article class="card">
+                    <h3>สำหรับวันนี้</h3>
+                    <p>
+                        ออกกำลังกายให้ถูกท่าเพื่อลดอาการบาดเจ็บ
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>ลิงก์ที่ใช้บ่อย</h3>
+                    <ul class="links-list">
+                        <li><a href="https://fitwhey.com/" target="_blank" rel="noopener">fitwhey</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a></li>
+                        <li><a href="https://chatgpt.com/" target="_blank" rel="noopener">GPT</a></li>
+
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+
+        <p>สร้างเพื่อรายวิชา ENGCE301 – Week 4 LAB</p>
+    </footer>
+
+    <a href="#top" class="back-to-top">⬆ กลับขึ้นด้านบน</a>
+
+</body>
+</html>
