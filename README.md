@@ -129,9 +129,9 @@ Footer
 กรอกข้อมูลหลังส่งงาน
 
 - **GitHub Repository:**  
-  https://github.com/Jirawat66/engce-lab-4.git
+  https://github.com/Jirawat66/ENGCE301-Week-4-LAB-.git
 - **GitHub Pages URL:**  
-  https://jirawat66.github.io/engce-lab-4/
+  https://jirawat66.github.io/ENGCE301-Week-4-LAB-/
 
 - **Screenshots:**  
   - Desktop ✔  
